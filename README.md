@@ -1,7 +1,7 @@
 # profile-loader
-Delete the specified code according to the profile
+Delete the specified code according to the profile building time.
 
-构建时根据profile，删除掉指定代码，从而可以用来打出不同的包
+构建时根据profile，删除掉指定代码，从而可以用来打出不同的包。
 
 # Guide 使用指南 
 Install
