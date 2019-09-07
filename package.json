@@ -1,6 +1,6 @@
 {
   "name": "profile-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Delete the specified code according to the profile",
   "main": "index.js",
   "scripts": {
@@ -13,7 +13,7 @@
   "author": "HZQ",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/saoraozhe3hao/profileLoader/issues"
+    "url": "https://github.com/saoraozhe3hao/profile-loader/issues"
   },
-  "homepage": "https://github.com/saoraozhe3hao/profileLoader#readme"
+  "homepage": "https://github.com/saoraozhe3hao/profile-loader#readme"
 }

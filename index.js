@@ -1,7 +1,7 @@
 const loaderUtils = require('loader-utils');
 
-let includeRegExp = new RegExp("\\/\\*include(.*)start\\*\\/[\\s\\S]*\\/\\*include(.*)end\\*\\/");
-let excludeRegExp = new RegExp("\\/\\*exclude(.*)start\\*\\/[\\s\\S]*\\/\\*exclude(.*)end\\*\\/");
+let includeRegExp = new RegExp("\\/\\*include(.*)start\\*\\/[\\s\\S]*\\/\\*include end\\*\\/");
+let excludeRegExp = new RegExp("\\/\\*exclude(.*)start\\*\\/[\\s\\S]*\\/\\*exclude end\\*\\/");
 
 module.exports = function (source, option) {
     const options = loaderUtils.getOptions(this);
