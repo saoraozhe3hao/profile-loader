@@ -25,9 +25,9 @@ In webpack config
 In source code
 ```css
 /*include profile1 profile2 start*/
-background-image: url("../assets/image/banner.png");
+background-image: url("../assets/image/banner.png");  /* If profile is not profile1 or profile2, this line would be removed */
 /*include end*/
 /*exclude profile2 profile3 start*/
-background-image: url("../assets/image/banner_1.png");
+background-image: url("../assets/image/banner_1.png"); /* If profile is profile2 or profile3, this line would be removed */
 /*exclude end*/
 ```
