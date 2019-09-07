@@ -1,0 +1,19 @@
+{
+  "name": "profile-loader",
+  "version": "1.0.0",
+  "description": "Delete the specified code according to the profile",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saoraozhe3hao/profile-loader.git"
+  },
+  "author": "HZQ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saoraozhe3hao/profileLoader/issues"
+  },
+  "homepage": "https://github.com/saoraozhe3hao/profileLoader#readme"
+}
