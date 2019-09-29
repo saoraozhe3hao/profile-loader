@@ -1,6 +1,6 @@
 {
   "name": "profile-loader",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Delete the specified code according to the profile",
   "main": "index.js",
   "scripts": {
