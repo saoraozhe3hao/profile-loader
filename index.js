@@ -1,10 +1,10 @@
 const loaderUtils = require('loader-utils');
 
-let codeIncludeExp = new RegExp("\\/\\*include(.*?)start\\*\\/([\\s\\S]*?)\\/\\*include end\\*\\/");  // 非贪婪模式
-let codeExcludeExp = new RegExp("\\/\\*exclude(.*?)start\\*\\/([\\s\\S]*?)\\/\\*exclude end\\*\\/");
-let moduleExp = new RegExp("require\\(\"\\.\\/.*?\\?(.*?)\"\\)");
-let xmlIncludeExp = new RegExp("<!--include(.*?)start-->([\\s\\S]*?)<!--include end-->");
-let xmlExcludeExp = new RegExp("<!--exclude(.*?)start-->([\\s\\S]*?)<!--exclude end-->");
+let codeIncludeExp = /\/\*include(.*?)start\*\/([\s\S]*?)\/\*include end\*\//;  // 非贪婪模式
+let codeExcludeExp = /\/\*exclude(.*?)start\*\/([\s\S]*?)\/\*exclude end\*\//;
+let moduleExp = /require\(.*?\?(include=|exclude=).*?\)/;
+let xmlIncludeExp = /<!--include(.*?)start-->([\s\S]*?)<!--include end-->/;
+let xmlExcludeExp = /<!--exclude(.*?)start-->([\s\S]*?)<!--exclude end-->/;
 
 // 处理 /*include profile*/ <!--include profile-->
 function removeNotInclude(source, profile) {
