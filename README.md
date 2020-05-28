@@ -31,3 +31,11 @@ background-image: url("../assets/image/banner.png");  /* If profile is not profi
 background-image: url("../assets/image/banner_1.png"); /* If profile is profile2 or profile3, this line would be removed */
 /*exclude end*/
 ```
+```js
+import './mock?include=mock'
+```
+```html
+<!--include profile1 start-->
+    <div></div>
+<!--include end-->
+```
